@@ -1,1 +1,45 @@
+html {
+   box-sizing: border-box;
+}
 
+*, *:before, *:after {
+   box-sizing: inherit;
+}
+
+.wrapper {
+   width: 70%;
+   margin: 5% auto;
+}
+.welcome {
+   font-size: 1.3em;
+   text-align: right;
+}
+.top {
+   width: 90%;
+   font-size: 1.3em;
+}
+
+
+.pic-block {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+   width: 100%;
+   margin: 0 auto;
+   padding-top: 3%;
+}
+
+.pics {
+
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+   /*width: 135px;
+   height: 135px;*/
+   margin: 2%;
+}
+
+img {
+   width: 150px;
+   height: 150px;
+}
